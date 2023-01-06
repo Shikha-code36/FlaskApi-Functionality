@@ -1,0 +1,37 @@
+{
+    "PositionType": "PositionType.Buy",
+    "Lots": 1 ,
+    "LegStopLoss": {
+    "Type": "LegTgtSLType.Percentage",
+    "Value": 40
+    },
+    "LegTarget": {
+    "Type": "LegTgtSLType.UnderlyingPercentage",
+    "Value": 30
+    },
+    "LegTrailSL": {
+    
+    "Type": "None" ,
+    "Value": {
+    "InstrumentMove":10, 
+    "StopLossMove": 11
+    }
+    },
+    "LegMomentum": {
+    "Type": "None" ,
+    "Value": 60
+    },
+    "ExpiryKind": "ExpiryType.Weekly", 
+    "EntryType": "EntryType.EntryByStrikeType",
+    "StrikeParameter": "StrikeType.ATM" ,
+    "InstrumentKind": "LegType.CE",
+    "LegReentrySL": {
+    "Type": "ReentryType.ASAP", 
+    "Value": 0 
+    },
+    "LegReentryTP": {
+    "Type": "ReentryType.ASAPReverse",
+    "Value": 1
+    }
+    
+    }
