@@ -1,0 +1,9 @@
+MONGO_STRING = 'mongodb://localhost:27017/'
+APPSECRET = 'your secret key'
+SOURCE = 'smtp.gmail.com'
+APIKEY_EMAIL = 'Email api key'
+EMAIL = 'you email'
+PHONENO = 'your phone no'
+SMS_API_SSID = 'SMS API SSID (twilio)'
+SMS_URL = 'https://api.twilio.com/2010-04-01/Accounts/{}/Messages.json'.format(SMS_API_SSID)
+SMS_API_KEY = 'SMS API KEY (twilio)'
