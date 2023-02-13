@@ -5,5 +5,5 @@ APIKEY_EMAIL = 'Email api key'
 EMAIL = 'you email'
 PHONENO = 'your phone no'
 SMS_API_SSID = 'SMS API SSID (twilio)'
-SMS_URL = 'https://api.twilio.com/2010-04-01/Accounts/{}/Messages.json'.format(SMS_API_SSID)
+SMS_URL = 'https://api.twilio.com/12-12-2019/Accounts/{}/Messages.json'.format(SMS_API_SSID)
 SMS_API_KEY = 'SMS API KEY (twilio)'
